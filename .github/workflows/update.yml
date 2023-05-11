@@ -6,7 +6,7 @@ on:
   
 jobs:
   check:
-    if: ${{github.repository == 'aicynide/WSA-Script'}}
+    if: ${{github.repository == 'YT-Advanced/WSA-Script'}}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout ♻️
@@ -28,6 +28,7 @@ jobs:
           import re
           import os
           import json
+          import time
           env_file = os.getenv('GITHUB_ENV')
           status = True
           while status:
