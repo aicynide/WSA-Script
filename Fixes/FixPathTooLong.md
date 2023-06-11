@@ -1,6 +1,3 @@
-# WSAGuides
-
----
 ## Issue: </br> Error stating that "Path is too long" when extracting files from .zip archive, needed to install Windows Subystem for Android (WSA)
 ### Preface:
 ##### This issue is caused if the folder name is too long. This is the typically the case as MagiskOnWSALocal script tends to generate a long string for the .zip file and the folder within the archive.
@@ -12,6 +9,6 @@
 
 The solution is simple, all you have to do is:
 
-**1. Rename the .zip folder to a shorter name, which can be anything to your choosing </br> (For example: WSA_2XXX.XXXXX.X.X_XXXX_Release-Nightly-with-magisk-XXXXXXX-XXXXXX-MindTheGapps-XX.X-RemovedAmazon ----> WSAArchive2XXX)**
+**1. Rename the .zip folder to a shorter name, which can be anything to your choosing </br> (WSA_2xxx.xxxxx.xx.x_x64_Release-Nightly-with-magisk-xxxxxxx-MindTheGapps-13.0-as-Pixel-5-RemovedAmazon ----> WSAArchive2XXX)**
 
-**2. Rename the extracted folder to a shorter name, which can be anything to your choosing </br> (For example: WSA_2XXX.XXXXX.X.X_XXXX_Release-Nightly-with-magisk-XXXXXXX-XXXXXX-MindTheGapps-XX.X-RemovedAmazon ----> WSAExtracted2XXX)**
+**2. Rename the extracted folder to a shorter name, which can be anything to your choosing </br> (WSA_2xxx.xxxxx.xx.x_x64_Release-Nightly-with-magisk-xxxxxxx-MindTheGapps-13.0-as-Pixel-5-RemovedAmazon ----> WSAExtracted2XXX)**
